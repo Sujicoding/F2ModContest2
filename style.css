@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    padding:1rem;
+}
+header{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.09px;
+    color: #FFFFFF;
+    width: auto;
+}
+.labels{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 1rem;
+    padding:0;
+    width: 150px;
+    height:30;
+    box-sizing: border-box;
+}
+input[type="text"]{
+    box-sizing: border-box;
+    background-color: black;
+    border: 1px solid white;
+    color: #FFFFFF;
+    width: 150px;
+    height:30;
+}
+#issueBtn{
+    height: 2rem;
+    width: inherit;
+    left: 65px;
+    top: 384px;
+    border-radius: 0px;
+}
+form{
+    width:60%;
+    height:30%;
+    margin-bottom:3rem;
+}
+form p{
+    width:inherit;
+    height:inherit;
+}
+#issued-books-table {
+    width:100%;
+    min-height: 150px;
+    border:1px solid white;
+    color:white;
+}
+th,tr,td{
+    width:50px;
+    padding:1rem 0;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    border-right: 1px solid #FFFFFF;
+    border-bottom:1px solid #FFFFFF;
+}
+td{
+    border-right:1px solid #FFFFFF;
+}
+.no-border{
+    border-right: 0;
+}
+.status-returned {
+    color: green;
+}
+.status-not-returned {
+    color: red;
+}
